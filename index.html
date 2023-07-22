@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="styles.css" />
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MMB Nutrition</title>
 </head>
 
@@ -27,14 +28,14 @@
                 </label>
             </fieldset>
             <fieldset>
-                <label for="dropdown">What is your main goal right now?
-                    <select id="dropdown" required>
-                        <option disabled selected hidden>Select your goal</option>
-                        <option>Loose fat</option>
-                        <option>Gain muscle</option>
-                        <option>Mantain my weight</option>
-                        <option>Just health</option>
-                    </select>
+                <label for="dropdown">What is your main goal right now?</label>
+                <select id="dropdown" required>
+                    <option disabled selected hidden>Select your goal</option>
+                    <option>Lose fat</option>
+                    <option>Gain muscle</option>
+                    <option>Maintain my weight</option>
+                    <option>Just health</option>
+                </select>
             </fieldset>
             <fieldset class="check">
                 <p>Select your biological gender</p>
@@ -48,8 +49,9 @@
                 <label><input name="circle" value="Foodscale" type="checkbox" />Food Scale</label>
             </fieldset>
             <fieldset>
-                <label>Here you can provide additional information for us to help you<textarea id="details"
-                        placeholder="You can type here"></textarea></label>
+                <label>Here you can provide additional information for us to help you
+                    <textarea id="details" placeholder="You can type here"></textarea>
+                </label>
             </fieldset>
             <input id="submit" type="submit" value="Submit" />
             </label>

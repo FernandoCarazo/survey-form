@@ -59,8 +59,9 @@ input[type="radio"],
 #details {
     min-height: 5em;
     max-height: 10em;
-    min-width: 42em;
-    max-width: 42em;
+    min-width: 100%;
+    max-width: 100%;
+    resize: none;
 
 }
 
