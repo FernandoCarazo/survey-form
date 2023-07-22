@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8">
+    <title>MMB Nutrition</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="title">MMB Nutrition</h1>
+        <p id="description">Complete this form and we will contact you soon</p>
+    </header>
+
+    <div>
+        <form id="survey-form">
+            <fieldset>
+                <label for="name" id="name-label">Name
+                    <input id="name" type="text" placeholder="Enter your name" required>
+                </label>
+                <label for="email" id="email-label">Email
+                    <input id="email" type="email" placeholder="Enter your email" required>
+                </label>
+                <label for="number" id="number-label" value="age">Age
+                    <input id="number" type="number" placeholder="Age" min="13" max="120" required>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label for="dropdown">What is your main goal right now?
+                    <select id="dropdown" required>
+                        <option disabled selected hidden>Select your goal</option>
+                        <option>Loose fat</option>
+                        <option>Gain muscle</option>
+                        <option>Mantain my weight</option>
+                        <option>Just health</option>
+                    </select>
+            </fieldset>
+            <fieldset class="check">
+                <p>Select your biological gender</p>
+                <label><input name="gender" type="radio" value="man" required />Man</label>
+                <label><input name="gender" type="radio" value="woman" />Woman</label>
+            </fieldset>
+            <fieldset class="check">
+                <p>Select if you have any of this options:</p>
+                <label><input name="circle" value="GYM" type="checkbox" />Gym</label>
+                <label><input name="circle" value="HomeGYM" type="checkbox" />Home Gym</label>
+                <label><input name="circle" value="Foodscale" type="checkbox" />Food Scale</label>
+            </fieldset>
+            <fieldset>
+                <label>Here you can provide additional information for us to help you<textarea id="details"
+                        placeholder="You can type here"></textarea></label>
+            </fieldset>
+            <input id="submit" type="submit" value="Submit" />
+            </label>
+        </form>
+    </div>
+</body>
+
+</html
